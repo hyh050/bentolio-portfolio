@@ -1,0 +1,94 @@
+body, .main-bg {
+  background: #F9F1F0;
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #FADCD9;
+  border-radius: 20px;
+  padding: 24px 48px;
+  margin: 24px;
+}
+.logo {
+  font-size: 25px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+.nav-links a {
+  margin: 0 32px;
+  font-size: 16px;
+  font-weight: 300;
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+}
+.slogan {
+  background: #FADCD9;
+  border-radius: 20px;
+  margin: 24px;
+  padding: 56px 32px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.about, .work, .contact, .socials {
+  margin: 24px;
+  padding: 40px 32px;
+  border-radius: 20px;
+  background: #FADCD9;
+}
+.about p {
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin: 0;
+}
+.work-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.work-item {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 12px 0;
+  border-bottom: 2px solid #F8AFA6;
+}
+.work-item:last-child {
+  border-bottom: none;
+}
+.social-links {
+  display: flex;
+  gap: 64px;
+  font-size: 1rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.contact-title {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.contact-question {
+  font-size: 1.1rem;
+  font-weight: 300;
+  margin-bottom: 16px;
+}
+@media (max-width: 900px) {
+  .header, .about, .work, .contact, .socials, .slogan {
+    margin: 12px;
+    padding: 24px 12px;
+  }
+  .nav-links a {
+    margin: 0 12px;
+  }
+  .social-links {
+    gap: 24px;
+  }
+}
